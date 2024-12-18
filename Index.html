@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My pets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JS/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/ec319758bc.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+<body id="js--body">
+<header class="header">
+    <h1 class="headerTitle">My pets</h1>
+
+
+ <button id="js--menu" class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+    <svg width="100" height="100" viewBox="0 0 100 100">
+      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+      <path class="line line2" d="M 20,50 H 80" />
+      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+    </svg>
+  </button>
+  
+</header>
+<nav id="js--nav" class="mainNav">
+    <ul class="mainNavList">
+        <li class="mainNavListItem">
+            
+            <a href="Index.html">Home</a>
+
+        </li>
+        <li class="mainNavListItem">
+            
+            <a href="">Collection #1</a>
+            
+        </li>
+        <li class="mainNavListItem">
+            
+            <a href="">Collection #2</a>
+            
+        </li>
+        <li class="mainNavListItem">
+            
+            <a href="">Collection #3</a>
+            
+        </li>
+    </ul>
+</nav>
+<main>
+    <figure class="bigFigure">
+        <img src="img/headerfotovankatten.jpg" alt="foto van 2 katten die op de grond slapen">
+    </figure>
+    <section class="collection">
+        <h2 class="collectionTitle">Collection</h2>
+        <ul class="collectionList">
+            <li class="collectionListItem"><img src="img/simbafoto1.jpeg" alt="bruin/zwarte kat die zit op een bruine bank."></li>
+            <li class="collectionListItem"><img src="img/simbafoto2.jpeg" alt="bruin/zwarte kat die slaapt op een bruine bank."></li>
+            <li class="collectionListItem"><img src="img/simbafoto3.jpeg" alt="bruin/zwarte kat die zit op een witte tafel die naar de muur kijkt."></li>
+            <li class="collectionListItem"><img src="img/rafikifoto1.jpeg" alt="oranje kat die zit op een schrift op een witte tafel voor een beeldscherm."></li>
+            <li class="collectionListItem"><img src="img/rafikifoto2.jpeg" alt="oranje kat die in de schaduw onder een tapijt ligt op zijn rug."></li>
+            <li class="collectionListItem"><img src="img/rafikifoto3.jpeg" alt="oranje kat die op een grijze bed zit met een halsband om."></li>
+        </ul>
+    </section>
+    <section class="info">
+        <div class="block">
+            <h2 class="infoTitle">Why</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione veritatis at doloribus eligendi, culpa ad eos minima, cupiditate modi, nesciunt quas iste repellendus dolores? Quibusdam officiis illum eligendi exercitationem.
+            Illum, quibusdam! Maxime perspiciatis deleniti iste sequi quas tempore neque delectus tempora porro sit doloribus excepturi, qui similique, dicta consequatur voluptatibus vel natus quibusdam, omnis sed iusto tenetur. Aliquam, doloremque!
+            Vel perspiciatis aliquam, sapiente, reiciendis illum, at ducimus ea animi eligendi dolorem deserunt dicta. Nostrum suscipit, error quasi quae reprehenderit corrupti rerum necessitatibus possimus sed ratione animi aspernatur enim consequuntur?
+            Perspiciatis explicabo similique doloribus dolorem illum eos, voluptate ullam placeat odio cupiditate laudantium dicta delectus sed saepe veniam non enim molestias facilis distinctio magni harum atque, beatae animi quia. Veritatis?
+            Magni dolores quae, expedita autem, consequatur obcaecati alias rem nulla, officia ipsa voluptatum. Eum vero recusandae animi. Culpa quod, illo odit sint vero hic rerum maiores, provident fugiat beatae ut!</P>      
+        </div>
+        <div class="block2">
+            <h2 class="infoTitle">What</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus corrupti, praesentium ea sunt vitae libero cum nihil accusamus quis similique. Voluptatem in cumque harum expedita minima adipisci quisquam beatae?
+            In officia modi ut, ea fuga maiores rem aliquam vitae nihil rerum perspiciatis perferendis neque veniam fugit hic labore voluptate aliquid nisi. Cum consectetur mollitia, reiciendis pariatur quis voluptatem assumenda.
+            Aut natus facilis temporibus sit harum? Praesentium, nobis illo necessitatibus id nemo vitae? Sed nesciunt id perspiciatis. Ducimus, rerum. Sequi error adipisci omnis itaque suscipit porro vero consectetur doloribus consequatur.
+            Eligendi veniam atque earum quam omnis pariatur, nostrum ab saepe! Placeat voluptatem consequatur nisi provident debitis fugiat ipsum. Voluptatem, ipsa placeat voluptatum ducimus pariatur qui alias vitae praesentium reiciendis eum?
+            Magnam quaerat qui quod doloremque debitis architecto eius ullam beatae. Ex, consectetur molestias ipsa pariatur quaerat cupiditate nam quis corporis amet iste. Quisquam id expedita cumque ipsum natus maiores debitis.</p>      
+        </div>
+ </section>
+ <section>
+    <footer>
+        <ul class="footerList">
+            <li><a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        <p><a href="https://www.google.com/search?q=Contactweg+36+Amsterdam&oq=Contactweg+36+Amsterdam&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIKCAEQABgTGBYYHjIKCAIQABgTGBYYHjIKCAMQABgTGBYYHjIKCAQQABiABBiiBDIKCAUQABiABBiiBDIGCAYQRRg8MgYIBxBFGDzSAQczNzFqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8">Contactweg 36 Amsterdam</a></p>
+    </footer>
+ </section>
+</main>
 </body>
 </html>
